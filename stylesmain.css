@@ -1,0 +1,12 @@
+.hero {
+  text-align: center;
+  background-color: aquamarine;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+h1 {
+    font-family: 'Lora', serif;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
