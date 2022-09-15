@@ -14,3 +14,20 @@ h3{
     text-align: center;
     padding: 50px 0px;
 }
+.about-me-header{
+    text-align: center;
+    padding: 30px;
+    font-size: 64px;
+}
+.other-photo-of-me {
+    max-width: 400px;
+    margin-left: 30px;
+    margin-top: 45px;
+}
+.about-me-p {
+    padding: 60px 10px;
+    font-size: 30px;
+    text-align: justify;
+    background-color: cadetblue;
+    margin-top: 30px;
+}
