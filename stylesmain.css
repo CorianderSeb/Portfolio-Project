@@ -71,6 +71,9 @@ h3{
   }
   h2 {
     font-size: 20px;
+    .twitter{
+        justify-content: start;
+    }
 }
 .contact-class {
     font-size: 20px;
