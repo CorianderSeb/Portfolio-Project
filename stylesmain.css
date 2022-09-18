@@ -25,6 +25,7 @@ h3{
     font-size: 64px;
 }
 .other-photo-of-me {
+    max-width: 480px;
    margin: 36px 10px 30px 10px;
 }
 
@@ -33,7 +34,7 @@ h3{
     font-size: 30px;
     text-align: justify;
     background-color: var(--branding-color);
-    margin-top: 30px;
+    margin-top: 90px;
 }
 .contact-info {
     padding: 20px;
