@@ -1,14 +1,19 @@
+:root {
+    --branding-color:#6495ED;
+    --heading-one-font: 'Lora', serif;
+    --complimentary-font:'Montserrat', sans-serif;
+} 
 .hero {
   text-align: center;
-  background-color: cornflowerblue;
+  background-color:var(--branding-color);
   padding-top: 30px;
   padding-bottom: 30px;
 }
 h1 {
-    font-family: 'Lora', serif;
+    font-family: var(--heading-one-font);
 }
 h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--complimentary-font);
 }
 h3{
     text-align: center;
@@ -20,14 +25,43 @@ h3{
     font-size: 64px;
 }
 .other-photo-of-me {
-    max-width: 380px;
-    margin-left: 30px;
-    margin-top: 31px;
+    max-width: 350px;
+    margin: 36px, 10px, 30px, 10px;
 }
+
 .about-me-p {
-    padding: 30px 10px;
+    padding: 30px;
     font-size: 30px;
     text-align: justify;
-    background-color: #6495ED;
+    background-color: var(--branding-color);
     margin-top: 30px;
+}
+.contact-info {
+    padding: 20px;
+    font-size: 30px;
+    font-family: var(--complimentary-font);
+}
+.contact .contact-me, .contact-me-h2 {
+    text-align: center;
+}
+.contact .contact-me {
+    padding-top: 50px;
+    font-size: 69px;
+}
+.contact .contact-me-h2 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom:30px;
+    background-color: var(--branding-color);
+}
+.fa-twitter {
+    margin-left: 60px;
+}
+.about-me-container {
+    border-color: black;
+    border-width: 5px;
+}
+.about-me .border {
+    border: black;
+    border-width: 5px;
 }
