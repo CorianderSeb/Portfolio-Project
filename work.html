@@ -13,15 +13,45 @@
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesmain.css">
 </head>
-<body>
+<body class="work-page">
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><i class="fa-solid fa-book"></i> Sebastian "Cory" Seithel</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="about.html">About</a>
+    
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact Me</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="work.html">My Work</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
    <h1>These are some of the projects I have worked on!</h1> 
    <div class="container">
     <div class="row">
         <div class="col-md-7">
-            <img src="images/weatherapp.png" alt="weatherapp" class="weatherappimage"/>
+            <img src="images/weatherapp.png" alt="weather app" class="weatherappimage"/>
        </div>
        <div class= "col-md-5">
-            <p>This is a weather app with to the minute weather descriptions and a six day forecast based on your location, with a search bar for over 400,000 cities. It was built with HTML, CSS, Javascript, Bootstrap, and Axios.</p>
+            <p class="weather-app-text">This is a weather app with to the minute weather descriptions and a six day forecast based on your location, with a search bar for over 400,000 cities. It was built with HTML, CSS, Javascript, Bootstrap, and Axios.
+                <form action="https://taupe-tulumba-c88621.netlify.app/">
+                    <input type="submit" class="weather-link" value="Check it out!" alt="link to weather app"/>
+                </form>
+            </p>
        </div>
    </div>
 </body>
