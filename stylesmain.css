@@ -124,6 +124,9 @@ footer .email-link:hover, .my-icons:hover {
 .my-icons {
     padding: 15px;
 }
+.coded-by {
+    margin: 20px;
+}
 @media only screen and (max-width: 600px) {
   .fa-twitter {
     margin-left: 10px;
