@@ -78,7 +78,8 @@ h3{
     font-size: 16px;
 }
 .other-photo-of-me{
-    max-width: 250px;
+    max-width: 300px;
+    margins: 0 auto;
 }
 }
 .weatherappimage {
