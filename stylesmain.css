@@ -111,6 +111,7 @@ h3{
 footer {
     text-align: center;
     font-size: 21px;
+    font-family: var(--heading-one-font);
 }
 footer .email-link, .my-icons{
     text-decoration: none;
@@ -119,6 +120,9 @@ footer .email-link, .my-icons{
 }
 footer .email-link:hover, .my-icons:hover {
     color: var(--branding-color)
+}
+.my-icons {
+    padding: 15px;
 }
 @media only screen and (max-width: 600px) {
   .fa-twitter {
