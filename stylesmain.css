@@ -77,6 +77,9 @@ h3{
 .about-me-p {
     font-size: 16px;
 }
+.other-photo-of-me{
+    max-width: 500px;
+}
 }
 .weatherappimage {
     padding: 40px;
