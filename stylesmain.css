@@ -120,13 +120,19 @@ h3{
   }
   .weather-app-text{
     font-size: 13px;
+    margin: 5px;
   }
   .weatherappimage{
     max-width: 300px;
     padding:5px;
-    margin:0;
+    margin-left:15;
   }
-  .work-heading {
-    font-size: 26px;
+  #work-heading {
+    font-size: 30px;
+    padding-bottom: 5px;
   }
+  .work-container {
+    margin:5px;
   }
+  
+}
