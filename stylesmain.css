@@ -98,7 +98,7 @@ h3{
 .weather-app-main-text {
 background-color: var(--secondary-color);
 color: white;
-padding-top:40px;
+padding-top: 80px;
 border-radius: 5px;
 }
 .weather-button-main {
