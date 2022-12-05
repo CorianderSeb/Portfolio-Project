@@ -184,3 +184,15 @@ footer .email-link:hover, .my-icons:hover {
     margin-left: 15px;
   }
 }
+
+.book-photo {
+    max-height: 400px;
+}
+.ff1-heading {
+    background-color: var(--branding-color);
+    padding-top: 0;
+    margin-top: 0;
+}
+.my-books-header {
+    text-align: center;
+}
