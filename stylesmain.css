@@ -192,7 +192,14 @@ footer .email-link:hover, .my-icons:hover {
     background-color: var(--branding-color);
     padding-top: 0;
     margin-top: 0;
+
 }
 .my-books-header {
     text-align: center;
+}
+@media only screen and (max-width: 600px) {
+.book-photo {
+    margin-left: 50px;
+}
+
 }
